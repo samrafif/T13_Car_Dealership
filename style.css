@@ -1,0 +1,78 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.strangulation {
+  width: 60%;
+}
+
+.shoot-him {
+  width: 100%;
+  border: 1px solid black;
+  padding: 16px;
+}
+
+.shoot-him p {
+  margin-bottom: 4px;
+}
+
+input {
+  width: 97%;
+  padding: 8px;
+}
+
+button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}
+
+.lefted {
+  display: flex;
+  gap: 16px;
+}
+
+.buriedalive-car-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 16px;
+}
+
+.buriedalive-car-item p,
+.buriedalive-car-item h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.buriedalive-car-item p {
+  font-size: 2rem;
+}
+
+#buriedalive-car-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.some-rights {
+  color: darkgrey;
+}
